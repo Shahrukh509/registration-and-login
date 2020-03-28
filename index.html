@@ -1,0 +1,51 @@
+<html>
+<head>
+<title> user login and portal </title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container" class="responsive">
+<div class="login-box">
+<div class="row">
+<div class="col-md-6 mt-0 login-left">
+	<div class="h2">
+<h2> Login Here </h2>
+</div>
+<form action="validation.php" method="POST">
+<div class="form-group">
+<label> Username </label>
+<input style="color:white"type="text" name="Username" class="form-control" required>
+</div>
+<br/>
+<div class="form-group">
+<label> Password </label>
+<input style="color:white" type="password" name="password" class="form-control" required>
+</div>
+<br/>
+<button type="submit" name="login" value="Login" class="button button1"> Login </button>
+</form>
+</div>
+<div class="col-md-6 mt-0 login-right">
+	<div class="h22">
+<h2> Register Here </h2>
+</div>
+<form action="registration.php" method="POST">
+<div class="form-group">
+<label> Username </label>
+<input style="color:white" type="text" name="user" class="form-control" required>
+</div>
+<br/>
+<div class="form-group">
+<label> Password </label>
+<input style="color:white" type="password" name="password" class="form-control" required>
+</div>
+<br/>
+<button type="submit"  name="register" value="Register" class="button button2"> Register </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

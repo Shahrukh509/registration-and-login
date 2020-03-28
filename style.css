@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(1, 1, 2, 0.5)),url(seaside.jpg);
+    background-size: cover;
+    background-position: right;
+}
+a{
+    color:rgb(200, 230, 67) !important;
+    margin-top: -280px !important;
+}
+    h1{
+
+color:rgb(202, 122, 122) !important;
+
+    margin-top: 300px !important;
+    text-align: center;
+    text-transform: uppercase;
+    }
