@@ -1,8 +1,8 @@
 # registration-and-login
 
-# A secure Registration and Login system with encrypted password via md5()#
+# A secure Registration and Login system with encrypted password via md5() method.
 
-=============When registering a user it first make sure username and password fields are not blank then check whether field's username is in database or not if not then it will register the user with encypted password.
+=============When registering a user it first makes sure username and password fields are not blank then check whether field's username is in database or not if not then it will register the user with encypted password.
 
  ## Features ##
  
