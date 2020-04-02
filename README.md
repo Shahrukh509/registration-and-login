@@ -16,4 +16,3 @@ When registering a user it first makes sure username and password fields are not
  
  * Clone repository.
  * Run SQL attached.
- * use any editor of your choice.
